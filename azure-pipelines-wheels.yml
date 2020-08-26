@@ -89,5 +89,7 @@ jobs:
           sed -i "s|# py_noaa|py_noaa|g" ${requirement_file}
           sed -i "s|# bme680|bme680|g" ${requirement_file}
           sed -i "s|# python-gammu|python-gammu|g" ${requirement_file}
+          sed -i "s|# avea|avea|g" ${requirement_file}
+          sed -i "s|# beewi_smartclim|beewi_smartclim|g" ${requirement_file}
         done
       displayName: 'Prepare requirements files for Home Assistant wheels'
